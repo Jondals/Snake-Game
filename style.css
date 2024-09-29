@@ -1,0 +1,47 @@
+body {
+    background-color: #121212; /* Fondo oscuro */
+    color: #ffffff; /* Texto blanco */
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+  #board {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 600px; /* Tamaño ajustado del tablero */
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .cell {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #333; /* Bordes más suaves */
+  }
+
+  #score {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  #message {
+    font-size: 40px;
+    color: red;
+    display: none; /* Oculto inicialmente */
+  }
+
+  button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #555;
+  }
